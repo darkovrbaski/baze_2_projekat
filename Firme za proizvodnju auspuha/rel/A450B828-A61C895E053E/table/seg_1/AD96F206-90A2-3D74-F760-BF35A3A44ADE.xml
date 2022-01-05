@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="AD96F206-90A2-3D74-F760-BF35A3A44ADE" name="Aparat_za_zavarivanje">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:11:31 UTC</createdTime>
+<generatorID>0639FBA8-BD29-99A6-AF6D-4647B2C36FC3</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdU" id="30A11C5C-39D2-FD3C-599C-9327F7229BA5">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:11:31 UTC</createdTime>
+<generatorID>DA5BE726-5D82-27A5-E251-A51A093FB59B</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B11A2EBC-349B-BAB5-A0E9-8D84C778B7BA" referredColumn="905A655D-745A-AA6B-7552-A5D551A478D3"/>
+</associations>
+</Column>
+<Column name="TipAzz" id="3BC1EF33-0EEA-17AF-9C77-AB01D98EFB92">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:11:31 UTC</createdTime>
+<generatorID>B444455D-A9E6-A6F8-83FB-EA71BD1D2077</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1EB85720-E96F-D3C3-79A9-A9C4962E9F1B" name="Aparat_za_zavarivanje_PK">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:11:31 UTC</createdTime>
+<generatorID>AFCA8C40-47C4-5C48-F9B8-1482206ECD15</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30A11C5C-39D2-FD3C-599C-9327F7229BA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB1EDBB2-5A56-6DF7-3020-D2F5534CB4EC" name="Aparat_za_zavarivanje_Uredjaj_FK">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:11:31 UTC</createdTime>
+<generatorID>A9538772-E497-267D-EAAF-4A667DB1B694</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30A11C5C-39D2-FD3C-599C-9327F7229BA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

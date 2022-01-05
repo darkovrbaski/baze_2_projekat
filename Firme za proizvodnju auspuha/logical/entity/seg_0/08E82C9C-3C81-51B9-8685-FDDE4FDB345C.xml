@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="08E82C9C-3C81-51B9-8685-FDDE4FDB345C" name="Sektor">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-04 23:25:33 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<engineerTo>
+<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdS" id="529F62AC-4C64-2634-426E-43CAD4124ED7">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-04 23:25:54 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<engineerTo>
+<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NazS" id="7342C492-8DEB-942C-29AB-949C7AD945FC">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-04 23:26:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[		]]></commentInRDBMS>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<engineerTo>
+<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdF" id="5E02E3CE-4D98-2A62-EF16-9C5025A8085E">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 00:22:02 UTC</createdTime>
+<generatorID>96A9555C-A450-3783-C5FD-2160D8393F72</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<engineerTo>
+<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+</engineerTo>
+<referedAttribute>BA8BEDA3-E270-513F-C467-08EA71F6A634</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E8B8D1A1-E754-BF8B-1EB1-C102E99CD84D" name="Sektor PK">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-04 23:26:06 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<engineerTo>
+<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>529F62AC-4C64-2634-426E-43CAD4124ED7</attributeRef>
+<attributeRef>5E02E3CE-4D98-2A62-EF16-9C5025A8085E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

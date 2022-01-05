@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sadrzi matv1" directorySegmentName="seg_0" id="D8E9CAFD-783F-46AA-9220-C613B4779600">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 01:08:00 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<engineerTo>
+<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+</engineerTo>
+<sourcePk>266EDF3A-4ABE-9EA0-78B0-2C1F21AD3DA8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A66E692E-E9C9-AF41-4535-96AC3F40EDBC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A323F5E4-DAC1-D501-C766-923BDAACB1A6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

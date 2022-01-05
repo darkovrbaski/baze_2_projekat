@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A323F5E4-DAC1-D501-C766-923BDAACB1A6" name="Auspuh">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-04 23:37:15 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<engineerTo>
+<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdAusp" id="228227B0-8D22-3F91-A959-9D91399237AF">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-04 23:37:26 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<engineerTo>
+<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NazAusp" id="1CF463E6-A35C-AAD9-9FA7-D7F956ABCFC0">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-04 23:38:17 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<engineerTo>
+<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KatAusp" id="DCE1890C-9EDE-09A3-3383-17458B4434F3">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-04 23:39:12 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<engineerTo>
+<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VrstAusp" id="D6159FD6-2C15-519F-0F65-A05E14C6ABBF">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-04 23:39:12 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<engineerTo>
+<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KolAusp" id="1AADEE3A-A9EF-415C-3707-DD66AB56E821">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-04 23:40:18 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<engineerTo>
+<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdSklad" id="AC6E51F5-EBEB-E1C2-C697-E69606D65447">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 01:08:00 UTC</createdTime>
+<generatorID>D8E9CAFD-783F-46AA-9220-C613B4779600</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<engineerTo>
+<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+</engineerTo>
+<referedAttribute>58EAAC55-BBDA-5CE2-64BD-9045D7FBAF89</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdR" id="BBE44CCF-BC01-D7ED-B06C-FAD3297D810C">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 01:22:03 UTC</createdTime>
+<generatorID>7B7245ED-F0D4-BF0B-AB02-A4336DE4329F</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<engineerTo>
+<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+</engineerTo>
+<referedAttribute>9934D5DE-9586-868D-B5E7-4A1D533864C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdF" id="46BC9D31-6500-1782-D6A5-AE33B59BB13E">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 01:22:03 UTC</createdTime>
+<generatorID>7B7245ED-F0D4-BF0B-AB02-A4336DE4329F</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<engineerTo>
+<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+</engineerTo>
+<referedAttribute>167BDAE7-65BC-485D-0835-FC3766E1B675</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdRO" id="8F05E3BE-C64B-E145-620B-C68FC166A810">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 01:22:03 UTC</createdTime>
+<generatorID>7B7245ED-F0D4-BF0B-AB02-A4336DE4329F</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<engineerTo>
+<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+</engineerTo>
+<referedAttribute>DD4F235A-1C55-6C5A-9FE7-C9995CFA8201</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdFRO" id="83C0840A-A90F-B64A-70E4-E8B95488D831">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 01:22:03 UTC</createdTime>
+<generatorID>7B7245ED-F0D4-BF0B-AB02-A4336DE4329F</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<engineerTo>
+<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+</engineerTo>
+<referedAttribute>B91AD26F-1D30-B7FC-BD65-96CF5333CCAC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdU" id="C42CAD47-08FE-042B-0F2A-9CFD7E6C7D38">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 01:27:02 UTC</createdTime>
+<generatorID>7B7245ED-F0D4-BF0B-AB02-A4336DE4329F</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<engineerTo>
+<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+</engineerTo>
+<referedAttribute>03736339-5246-8C6D-1A20-2F5AC9F33F16</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="011FD716-EBE2-D52A-449A-E3B39F75BEA1" name="Auspuh PK">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-04 23:37:49 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>228227B0-8D22-3F91-A959-9D91399237AF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="7472C341-17A4-1A34-65E1-469E8C997625" name="Skladiste">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:11:31 UTC</createdTime>
+<generatorID>A66E692E-E9C9-AF41-4535-96AC3F40EDBC</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdSklad" id="21273E8E-0DBA-2EF6-E1ED-D87A181AECE6">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:11:31 UTC</createdTime>
+<generatorID>58EAAC55-BBDA-5CE2-64BD-9045D7FBAF89</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sektor_IdS" id="8E73D2DB-F5D0-6E04-A5BE-56371266169D">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:11:31 UTC</createdTime>
+<generatorID>3A7C9877-7313-0FC9-54EE-FFE6F0386638</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1AA80B1C-E145-BCE0-D132-19E99F9473CC" referredColumn="319EC54A-53B6-FF94-47D1-1006D38D947D"/>
+</associations>
+</Column>
+<Column name="Sektor_Firma_IdF" id="BE7CEB98-54E9-53AD-1AC8-C83A6EAC4762">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:11:31 UTC</createdTime>
+<generatorID>A763280D-3CE2-7E35-F463-D701257C19A2</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1AA80B1C-E145-BCE0-D132-19E99F9473CC" referredColumn="107D883A-612F-6F4D-CCCF-71501337DF45"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1BEBF5C8-8A9F-6E46-EB09-798D4F0F2FF5" name="Skladiste_PK">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:11:31 UTC</createdTime>
+<generatorID>266EDF3A-4ABE-9EA0-78B0-2C1F21AD3DA8</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21273E8E-0DBA-2EF6-E1ED-D87A181AECE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73B4802D-6462-CDED-0287-6FB66BEE1087" name="Skladiste_Sektor_FK">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:11:31 UTC</createdTime>
+<generatorID>4E14751B-61D2-5FD6-5B9E-314FBA0E64A2</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E73D2DB-F5D0-6E04-A5BE-56371266169D"/>
+<colUsage columnID="BE7CEB98-54E9-53AD-1AC8-C83A6EAC4762"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

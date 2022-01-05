@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="ADE0183C-5B22-9D10-4FDA-8000AC1783DE" name="Je_nadredjen">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:11:31 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Radnik_IdR" id="FFA0FC62-7006-C38B-0805-DD1A8F013635">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:11:31 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="335170EE-4B2B-3A5A-7440-92739FD73CD4" referredColumn="8C6ADEA3-DFB7-5330-341B-3C537BF4FC7B"/>
+</associations>
+</Column>
+<Column name="Radnik_IdF" id="99B7DE9D-BB31-AA64-6E39-E87F8A24955C">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:11:31 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="335170EE-4B2B-3A5A-7440-92739FD73CD4" referredColumn="83266299-B827-6E91-D5DD-4199586916A6"/>
+</associations>
+</Column>
+<Column name="Menadzer_IdR" id="F24EA2E9-90C0-E982-37A5-0118EBC3EC57">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:11:31 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7DD106E2-BDCE-E0AD-B5D4-3560EBBBDA6A" referredColumn="40E43325-1781-E7B1-34A7-047615EBD2B0"/>
+</associations>
+</Column>
+<Column name="Menadzer_IdF" id="E5E28B2D-38F4-0D67-6CE7-B36D73387E73">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:11:31 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7DD106E2-BDCE-E0AD-B5D4-3560EBBBDA6A" referredColumn="6ECDD3A7-85DD-BA23-2448-DEABE0709265"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="471576B8-2DE1-92A4-CC6F-D14E3A9F0A30" name="Je_nadredjen_PK">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:11:31 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFA0FC62-7006-C38B-0805-DD1A8F013635"/>
+<colUsage columnID="99B7DE9D-BB31-AA64-6E39-E87F8A24955C"/>
+<colUsage columnID="F24EA2E9-90C0-E982-37A5-0118EBC3EC57"/>
+<colUsage columnID="E5E28B2D-38F4-0D67-6CE7-B36D73387E73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C31D48A-2108-F63B-68EE-4872780125F5" name="Je_nadredjen_Radnik_FK">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:11:31 UTC</createdTime>
+<generatorID>A635824C-D593-336A-B717-BB184ED6D62D</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFA0FC62-7006-C38B-0805-DD1A8F013635"/>
+<colUsage columnID="99B7DE9D-BB31-AA64-6E39-E87F8A24955C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC9A885A-F4CC-62A6-E2A7-25A2A3FBFB99" name="Je_nadredjen_Menadzer_FK">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:11:31 UTC</createdTime>
+<generatorID>A635824C-D593-336A-B717-BB184ED6D62D</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F24EA2E9-90C0-E982-37A5-0118EBC3EC57"/>
+<colUsage columnID="E5E28B2D-38F4-0D67-6CE7-B36D73387E73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

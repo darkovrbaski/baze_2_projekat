@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Koristi" directorySegmentName="seg_0" id="A459FD1F-9D49-CD8C-EC05-4809DD942DC9">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 00:51:08 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<engineerTo>
+<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+</engineerTo>
+<sourcePk>AFCA8C40-47C4-5C48-F9B8-1482206ECD15</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0639FBA8-BD29-99A6-AF6D-4647B2C36FC3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2C0211EC-58F9-FD0E-B752-BF5013D538EA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

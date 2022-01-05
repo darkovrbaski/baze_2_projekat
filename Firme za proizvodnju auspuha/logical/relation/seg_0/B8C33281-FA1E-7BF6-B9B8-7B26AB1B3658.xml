@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Radi u" directorySegmentName="seg_0" id="B8C33281-FA1E-7BF6-B9B8-7B26AB1B3658">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 01:02:59 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<engineerTo>
+<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+</engineerTo>
+<sourcePk>266EDF3A-4ABE-9EA0-78B0-2C1F21AD3DA8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A66E692E-E9C9-AF41-4535-96AC3F40EDBC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9EA2CB22-886A-24B8-A053-BF80BE3A820E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Firme za proizvodnju auspuha" id="484948F8-301A-68C7-25F4-6F05B676B580" version="3.5">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-04 22:59:49 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>484948F8-301A-68C7-25F4-6F05B676B580</designId>
+</OSDM_Design>

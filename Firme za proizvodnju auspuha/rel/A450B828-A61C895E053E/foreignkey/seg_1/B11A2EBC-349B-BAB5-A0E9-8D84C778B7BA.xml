@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="B11A2EBC-349B-BAB5-A0E9-8D84C778B7BA" containerWithKeyObject="AD96F206-90A2-3D74-F760-BF35A3A44ADE" localFKIndex="AB1EDBB2-5A56-6DF7-3020-D2F5534CB4EC" name="Aparat_za_zavarivanje_Uredjaj_FK">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:11:31 UTC</createdTime>
+<generatorID>A9538772-E497-267D-EAAF-4A667DB1B694</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<referredTableLongName>Uredjaj</referredTableLongName>
+<arc>2F09D34E-2DC4-759A-7C59-01A97981CD47</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FDF6F4B3-1776-1E40-7E6A-579ED2869954</referredTableID>
+<keyObject>715C8F8B-0F39-907E-9DFA-1910E6BD6002</keyObject>
+<referredKeyID>715C8F8B-0F39-907E-9DFA-1910E6BD6002</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdU</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

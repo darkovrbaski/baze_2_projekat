@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Obucen operater" directorySegmentName="seg_0" id="F9350B15-0C3D-9DC1-0541-B62A79E1B14F">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 01:13:15 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<engineerTo>
+<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+</engineerTo>
+<sourcePk>256C8643-7A2F-4F34-E8D7-3EA64B2983C4</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DB94552C-0773-9C38-1B67-4D6F7AB7AB14</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>05B22153-8CE0-8038-AF89-57A0D2CBF928</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

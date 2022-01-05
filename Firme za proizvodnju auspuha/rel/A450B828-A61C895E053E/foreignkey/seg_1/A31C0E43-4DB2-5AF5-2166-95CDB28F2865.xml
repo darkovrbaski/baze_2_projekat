@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="A31C0E43-4DB2-5AF5-2166-95CDB28F2865" containerWithKeyObject="7697B05A-AF48-8B16-28F5-470CCBEFA5A7" localFKIndex="7AB1E786-C031-9F6D-504F-ED6E2768246D" name="Radi_na_Je_obucen_FK">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:11:31 UTC</createdTime>
+<generatorID>8CA21058-FA7D-7A18-72E6-8264A5C87E47</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<referredTableLongName>Je_obucen</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E5BB80BE-C24A-534A-EF4F-2A18F1051229</referredTableID>
+<keyObject>F165E083-CE9C-DA81-874A-7F68E0740F5A</keyObject>
+<referredKeyID>F165E083-CE9C-DA81-874A-7F68E0740F5A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Operater_IdR,Operater_IdF,Masina_za_savijanje_IdU</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

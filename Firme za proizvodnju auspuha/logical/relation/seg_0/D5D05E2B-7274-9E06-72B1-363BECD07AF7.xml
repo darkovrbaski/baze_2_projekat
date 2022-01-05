@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Uredja pripada" directorySegmentName="seg_0" id="D5D05E2B-7274-9E06-72B1-363BECD07AF7">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 01:45:07 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<engineerTo>
+<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+</engineerTo>
+<sourcePk>E8B8D1A1-E754-BF8B-1EB1-C102E99CD84D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>08E82C9C-3C81-51B9-8685-FDDE4FDB345C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>13096885-8899-B9FB-0081-EF2F8F0C7071</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
