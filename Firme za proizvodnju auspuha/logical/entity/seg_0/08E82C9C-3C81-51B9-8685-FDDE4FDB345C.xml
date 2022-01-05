@@ -39,7 +39,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="IdF" id="5E02E3CE-4D98-2A62-EF16-9C5025A8085E">
 <createdBy>Darko</createdBy>
@@ -61,8 +62,9 @@
 <createdBy>Darko</createdBy>
 <createdTime>2022-01-04 23:26:06 UTC</createdTime>
 <ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

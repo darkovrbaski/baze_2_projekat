@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="CA9BE8C6-8DD9-FB2F-B1A5-F996337C5DB3" containerWithKeyObject="63884461-C253-F335-4B09-A62534FFD973" localFKIndex="12467049-5E0B-6AE7-0062-E1A85DD33B8A" name="AZZ_Uredjaj_FK">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:37:43 UTC</createdTime>
+<generatorID>A9538772-E497-267D-EAAF-4A667DB1B694</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<referredTableLongName>Uredjaj</referredTableLongName>
+<arc>1A84DA71-B5B8-4CD3-C547-83FDD9088901</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>79EF5B87-FD4B-2C38-CACE-91C82399A6FF</referredTableID>
+<keyObject>8124B1E7-7496-8C6C-E731-D193898C4DF1</keyObject>
+<referredKeyID>8124B1E7-7496-8C6C-E731-D193898C4DF1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdU</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Aparat_za_zavarivanje</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

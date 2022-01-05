@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="D5F9C543-0212-CE21-746A-0434E0355B04" name="Radi_na">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:37:43 UTC</createdTime>
+<generatorID>152A8B19-C407-66A1-135E-E6B1982E46EE</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Je_obucen_Operater_IdR" id="82402CD3-7589-3313-206D-237D09F41948">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:37:43 UTC</createdTime>
+<generatorID>9934D5DE-9586-868D-B5E7-4A1D533864C6</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="498111FF-450E-2D50-0A8B-4EBFC57CDDF8" referredColumn="7C504EB8-C58A-E2A6-A32B-FA11D4A0D76F"/>
+</associations>
+</Column>
+<Column name="Je_obucen_Operater_IdF" id="8E414AC8-0590-7DA3-7B95-3EF7A47F634E">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:37:43 UTC</createdTime>
+<generatorID>167BDAE7-65BC-485D-0835-FC3766E1B675</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="498111FF-450E-2D50-0A8B-4EBFC57CDDF8" referredColumn="339C5708-4EF8-EB2F-510C-DFD27BE6EF94"/>
+</associations>
+</Column>
+<Column name="Operater_IdR" id="13814C13-9925-E2E9-5839-68A849300990">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:37:43 UTC</createdTime>
+<generatorID>DD4F235A-1C55-6C5A-9FE7-C9995CFA8201</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1A07192-5F9E-8EBA-1BE8-DB1E785B6377" referredColumn="BF915120-3BCA-D256-23C8-F5A96F7BFFA5"/>
+</associations>
+</Column>
+<Column name="Operater_IdF" id="C171C3A8-0001-2688-3717-3AD1926DA6F9">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:37:43 UTC</createdTime>
+<generatorID>B91AD26F-1D30-B7FC-BD65-96CF5333CCAC</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1A07192-5F9E-8EBA-1BE8-DB1E785B6377" referredColumn="1E04492C-D11C-33B6-347F-039ABEFFFDAC"/>
+</associations>
+</Column>
+<Column name="Je_obucen_IdU" id="BF61629D-4A55-B01C-4122-6687E711FF7D">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:37:43 UTC</createdTime>
+<generatorID>03736339-5246-8C6D-1A20-2F5AC9F33F16</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="498111FF-450E-2D50-0A8B-4EBFC57CDDF8" referredColumn="310FC599-72EA-7A0D-58AF-C9648E7A2F62"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7D2FF8E-345F-C475-1FF5-15BE32615311" name="Radi_na_PK">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:37:43 UTC</createdTime>
+<generatorID>3EA37DA9-0BBD-6242-B0E1-B1BFE42E3370</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82402CD3-7589-3313-206D-237D09F41948"/>
+<colUsage columnID="8E414AC8-0590-7DA3-7B95-3EF7A47F634E"/>
+<colUsage columnID="BF61629D-4A55-B01C-4122-6687E711FF7D"/>
+<colUsage columnID="13814C13-9925-E2E9-5839-68A849300990"/>
+<colUsage columnID="C171C3A8-0001-2688-3717-3AD1926DA6F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="713813C0-EA2D-0694-1FE3-B8E4242C2959" name="Radi_na_Je_obucen_FK">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:37:43 UTC</createdTime>
+<generatorID>8CA21058-FA7D-7A18-72E6-8264A5C87E47</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82402CD3-7589-3313-206D-237D09F41948"/>
+<colUsage columnID="8E414AC8-0590-7DA3-7B95-3EF7A47F634E"/>
+<colUsage columnID="BF61629D-4A55-B01C-4122-6687E711FF7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DDA14EC-A661-B751-A8AE-A132DA0E6A10" name="Radi_na_Operater_FK">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:37:43 UTC</createdTime>
+<generatorID>D6D099B7-49F3-0141-D4D2-240D30917064</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13814C13-9925-E2E9-5839-68A849300990"/>
+<colUsage columnID="C171C3A8-0001-2688-3717-3AD1926DA6F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -14,6 +14,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
 <discriminatorAttributeID>9ACE2B18-1AA5-0AC5-5F2F-919A329F04A2</discriminatorAttributeID>
 <completeSubtypes>true</completeSubtypes>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
@@ -38,6 +39,7 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <domain>ECF41C0D-1544-FCA8-0106-831B2C90F736</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -52,7 +54,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="SnagU" id="52EF0987-A2A7-CECC-2238-3835D3FAD35E">
 <createdBy>Darko</createdBy>
@@ -101,8 +104,9 @@
 <createdBy>Darko</createdBy>
 <createdTime>2022-01-04 23:56:15 UTC</createdTime>
 <ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

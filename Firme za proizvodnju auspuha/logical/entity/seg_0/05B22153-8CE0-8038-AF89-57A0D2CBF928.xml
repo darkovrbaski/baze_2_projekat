@@ -63,8 +63,9 @@
 <createdBy>Darko</createdBy>
 <createdTime>2022-01-05 01:12:36 UTC</createdTime>
 <ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

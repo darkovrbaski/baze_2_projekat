@@ -38,7 +38,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="KolMat" id="76AD0214-55C4-11B3-D6A8-022368734F40">
 <createdBy>Darko</createdBy>
@@ -73,8 +74,9 @@
 <createdBy>Darko</createdBy>
 <createdTime>2022-01-05 01:01:04 UTC</createdTime>
 <ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="1A84DA71-B5B8-4CD3-C547-83FDD9088901" name="FKArc_26">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-05 02:37:43 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<mandatory>true</mandatory>
+<reverseArc>true</reverseArc>
+<table>79EF5B87-FD4B-2C38-CACE-91C82399A6FF</table>
+<discriminatorColumn>B9713649-0D28-8CF1-E71E-6957989F06AD</discriminatorColumn>
+<fkeys>
+<fkeyID>CA9BE8C6-8DD9-FB2F-B1A5-F996337C5DB3</fkeyID>
+<fkeyID>C016A3E2-B813-827A-91A5-7F08212B1227</fkeyID>
+</fkeys>
+</FKArc>
