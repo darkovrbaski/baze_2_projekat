@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D5D859D-51CD-4E11-3F34-CE3C963BDE34" name="Masina_za_savijanje">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-11 23:21:48 UTC</createdTime>
+<generatorID>D25BB066-F8AB-F89F-AA20-5852AF4160D3</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdU" id="9228A0C5-7E3B-1448-79FC-F02F64A834BE">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-11 23:21:48 UTC</createdTime>
+<generatorID>DA5BE726-5D82-27A5-E251-A51A093FB59B</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE7BCA8F-8713-2760-526F-7A48BE0324F4" referredColumn="FD75DA74-C4DF-53C7-EA73-E03FD37F1AD7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="605B4B87-21F5-EABA-FDFF-60FC33960B4E" name="Masina_za_savijanje_PK">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-11 23:21:48 UTC</createdTime>
+<generatorID>AFCA8C40-47C4-5C48-F9B8-1482206ECD15</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9228A0C5-7E3B-1448-79FC-F02F64A834BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC4B5381-3B3C-A81F-B40F-A25C47D6A088" name="Mzs_Uredjaj_FK">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-11 23:21:48 UTC</createdTime>
+<generatorID>0B6F8AD8-6BCD-7976-A0DB-03A90E232600</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9228A0C5-7E3B-1448-79FC-F02F64A834BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

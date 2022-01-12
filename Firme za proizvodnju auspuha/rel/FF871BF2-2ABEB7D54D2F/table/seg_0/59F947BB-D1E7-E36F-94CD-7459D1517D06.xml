@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="59F947BB-D1E7-E36F-94CD-7459D1517D06" name="Zavarivac">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-11 23:21:48 UTC</createdTime>
+<generatorID>2C0211EC-58F9-FD0E-B752-BF5013D538EA</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdR" id="EF53A5E2-62F0-AA0D-5F75-C317FAF96904">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-11 23:21:48 UTC</createdTime>
+<generatorID>136D4695-D8C2-823E-0425-92DBF2871BA6</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72A455B3-A015-D145-6C6D-4D94244C3417" referredColumn="9A49F5BF-245D-E442-56C4-F5E3D78939CE"/>
+</associations>
+</Column>
+<Column name="IdAzz" id="90D60B4D-16F3-2ACA-6D5C-D18200234D36">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-11 23:21:48 UTC</createdTime>
+<generatorID>883D323B-06BC-0252-2B76-BA9E97D385F4</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="054D3313-EA97-E88D-B450-73655EF51DE0" referredColumn="DE03F1C6-F7D0-C0E2-5983-C1DD2C80241E"/>
+</associations>
+</Column>
+<Column name="IdF" id="CEC14BCE-0FA0-4DC7-E9FF-C66ECB944D1F">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-11 23:21:48 UTC</createdTime>
+<generatorID>9B049299-C0D7-7061-810E-0F8E332FF77B</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72A455B3-A015-D145-6C6D-4D94244C3417" referredColumn="D14D7C1C-2FFB-07B4-9DBF-762FFE7FC3FA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8DB358F1-5FE7-3835-84C7-31272B3BD8A2" name="Zavarivac_PK">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-11 23:21:48 UTC</createdTime>
+<generatorID>256C8643-7A2F-4F34-E8D7-3EA64B2983C4</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF53A5E2-62F0-AA0D-5F75-C317FAF96904"/>
+<colUsage columnID="CEC14BCE-0FA0-4DC7-E9FF-C66ECB944D1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC5BDEB9-99B1-EDE7-4E4A-DF6DAC9EAE8F" name="Zavarivac_Radnik_FK">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-11 23:21:48 UTC</createdTime>
+<generatorID>9EB9F305-6BB7-5135-6D6C-C87540F933AA</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF53A5E2-62F0-AA0D-5F75-C317FAF96904"/>
+<colUsage columnID="CEC14BCE-0FA0-4DC7-E9FF-C66ECB944D1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09AD67CB-1BC6-684C-7C76-F205C8D9485E" name="Zavarivac_Azz_FK">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-11 23:21:48 UTC</createdTime>
+<generatorID>A459FD1F-9D49-CD8C-EC05-4809DD942DC9</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90D60B4D-16F3-2ACA-6D5C-D18200234D36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
