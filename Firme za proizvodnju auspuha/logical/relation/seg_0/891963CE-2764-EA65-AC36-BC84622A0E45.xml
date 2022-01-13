@@ -4,11 +4,11 @@
 <createdTime>2022-01-11 23:20:53 UTC</createdTime>
 <ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
 <engineerTo>
-<item key="FF871BF2-1EA9-E018-1D15-2ABEB7D54D2F" value="true"/>
+<item key="FF871BF2-0109-12D2-8C9C-2ABEB7D54D2F" value="true"/>
 </engineerTo>
 <sourcePk>BF523C5F-D7D5-8AAD-F2FF-68E6004A22A9</sourcePk>
 <identifying>true</identifying>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>05B22153-8CE0-8038-AF89-57A0D2CBF928</sourceEntity>

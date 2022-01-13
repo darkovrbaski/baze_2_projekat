@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sadrzi matv1" directorySegmentName="seg_0" id="D8E9CAFD-783F-46AA-9220-C613B4779600">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sadrzi auspuh" directorySegmentName="seg_0" id="D8E9CAFD-783F-46AA-9220-C613B4779600">
 <createdBy>Darko</createdBy>
 <createdTime>2022-01-05 01:08:00 UTC</createdTime>
 <ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
 <engineerTo>
-<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+<item key="FF871BF2-0109-12D2-8C9C-2ABEB7D54D2F" value="true"/>
 </engineerTo>
 <sourcePk>266EDF3A-4ABE-9EA0-78B0-2C1F21AD3DA8</sourcePk>
 <identifying>false</identifying>

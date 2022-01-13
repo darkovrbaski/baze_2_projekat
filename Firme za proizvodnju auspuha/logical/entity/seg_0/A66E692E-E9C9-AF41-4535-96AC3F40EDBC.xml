@@ -4,7 +4,7 @@
 <createdTime>2022-01-05 01:02:03 UTC</createdTime>
 <ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
 <engineerTo>
-<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+<item key="FF871BF2-0109-12D2-8C9C-2ABEB7D54D2F" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2022-01-05 01:02:32 UTC</createdTime>
 <ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
 <engineerTo>
-<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+<item key="FF871BF2-0109-12D2-8C9C-2ABEB7D54D2F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <generatorID>4E14751B-61D2-5FD6-5B9E-314FBA0E64A2</generatorID>
 <ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
 <engineerTo>
-<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+<item key="FF871BF2-0109-12D2-8C9C-2ABEB7D54D2F" value="true"/>
 </engineerTo>
 <referedAttribute>529F62AC-4C64-2634-426E-43CAD4124ED7</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -47,13 +47,54 @@
 <generatorID>4E14751B-61D2-5FD6-5B9E-314FBA0E64A2</generatorID>
 <ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
 <engineerTo>
-<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+<item key="FF871BF2-0109-12D2-8C9C-2ABEB7D54D2F" value="true"/>
 </engineerTo>
 <referedAttribute>5E02E3CE-4D98-2A62-EF16-9C5025A8085E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KapSklad" id="C8DBA35B-1450-60E6-5E2E-02718DADB686">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-13 23:00:22 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<engineerTo>
+<item key="FF871BF2-0109-12D2-8C9C-2ABEB7D54D2F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AdrSklad" id="D123847F-7EB4-3CF1-3AF9-177D0A43D31C">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-13 23:00:40 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<engineerTo>
+<item key="FF871BF2-0109-12D2-8C9C-2ABEB7D54D2F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NazSklad" id="1A688538-11F3-04B1-749D-D68C3A3A32E8">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-13 23:01:16 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<engineerTo>
+<item key="FF871BF2-0109-12D2-8C9C-2ABEB7D54D2F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -62,7 +103,7 @@
 <createdTime>2022-01-05 01:02:43 UTC</createdTime>
 <ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
 <engineerTo>
-<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+<item key="FF871BF2-0109-12D2-8C9C-2ABEB7D54D2F" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FF6872AE-867B-86E7-92D5-6F2998D87975" containerWithKeyObject="0A37E253-7490-469A-0C34-8C06AE18921C" localFKIndex="E1C3521B-7B00-604D-5EFE-81C6EE774395" name="Auspuh_Skladiste_FK">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-13 22:15:58 UTC</createdTime>
+<generatorID>D8E9CAFD-783F-46AA-9220-C613B4779600</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<referredTableLongName>Skladiste</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>11337125-7B6A-EF92-5D81-3024A352DDB4</referredTableID>
+<keyObject>CFAF0C6D-0031-2DA6-DFD6-4A3900E75654</keyObject>
+<referredKeyID>CFAF0C6D-0031-2DA6-DFD6-4A3900E75654</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdSklad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

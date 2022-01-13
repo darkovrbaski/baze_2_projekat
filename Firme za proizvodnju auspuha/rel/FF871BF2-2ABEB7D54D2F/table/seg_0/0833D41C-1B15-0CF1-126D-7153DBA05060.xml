@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0833D41C-1B15-0CF1-126D-7153DBA05060" name="Servisira">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-13 22:15:58 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdServ" id="17732F0A-742D-4499-EC43-FDEC0390C951">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-13 22:15:58 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5D7000B-9A9C-EC39-3B12-79C9C5C01EBD" referredColumn="C11C37B3-1254-30B7-4E17-E9BCFF317073"/>
+</associations>
+</Column>
+<Column name="IdF" id="F915A1E9-0BD1-48C9-B04A-923D67654015">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-13 22:15:58 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5D7000B-9A9C-EC39-3B12-79C9C5C01EBD" referredColumn="1446C09E-B668-5178-6E9F-546F48609CAA"/>
+</associations>
+</Column>
+<Column name="IdU" id="E050FC72-99A1-6666-C513-81B931998EA5">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-13 22:15:58 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DF92F2E-912E-0F93-D409-E8629AC0A404" referredColumn="FDC02624-CB85-CE27-9AB0-DCA62A77B431"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7312987-EF69-C43F-FA26-10B0EF2B7202" name="Servisira_PK">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-13 22:15:58 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17732F0A-742D-4499-EC43-FDEC0390C951"/>
+<colUsage columnID="F915A1E9-0BD1-48C9-B04A-923D67654015"/>
+<colUsage columnID="E050FC72-99A1-6666-C513-81B931998EA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DCD672A-E989-17E3-10CF-82AB3CE7B15D" name="Servisira_Serviser_FK">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-13 22:15:58 UTC</createdTime>
+<generatorID>924D2FB5-ABA1-C4AD-05D8-8A9D4716F53E</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17732F0A-742D-4499-EC43-FDEC0390C951"/>
+<colUsage columnID="F915A1E9-0BD1-48C9-B04A-923D67654015"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40572F0F-D1B4-9F1A-E41B-9B04881A2421" name="Servisira_Uredjaj_FK">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-13 22:15:58 UTC</createdTime>
+<generatorID>924D2FB5-ABA1-C4AD-05D8-8A9D4716F53E</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E050FC72-99A1-6666-C513-81B931998EA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

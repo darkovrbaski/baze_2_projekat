@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Servisira" directorySegmentName="seg_0" id="924D2FB5-ABA1-C4AD-05D8-8A9D4716F53E">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-13 22:07:49 UTC</createdTime>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<engineerTo>
+<item key="FF871BF2-0109-12D2-8C9C-2ABEB7D54D2F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>AE75C50F-E264-CD02-76D1-A3168B641319</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>13096885-8899-B9FB-0081-EF2F8F0C7071</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

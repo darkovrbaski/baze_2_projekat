@@ -4,7 +4,7 @@
 <createdTime>2022-01-04 23:47:16 UTC</createdTime>
 <ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
 <engineerTo>
-<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+<item key="FF871BF2-0109-12D2-8C9C-2ABEB7D54D2F" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <createdTime>2022-01-04 23:54:32 UTC</createdTime>
 <ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
 <engineerTo>
-<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+<item key="FF871BF2-0109-12D2-8C9C-2ABEB7D54D2F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -29,6 +29,36 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdR" id="D966C0F1-1015-4D25-30AB-AA9F658E9903">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-13 22:09:36 UTC</createdTime>
+<generatorID>CC8DE445-2600-F179-88B7-4D9D70A1E90E</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<engineerTo>
+<item key="FF871BF2-0109-12D2-8C9C-2ABEB7D54D2F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>136D4695-D8C2-823E-0425-92DBF2871BA6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdF" id="09070A20-0627-015A-DB69-6C444866950B">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-13 22:09:36 UTC</createdTime>
+<generatorID>CC8DE445-2600-F179-88B7-4D9D70A1E90E</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<engineerTo>
+<item key="FF871BF2-0109-12D2-8C9C-2ABEB7D54D2F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9B049299-C0D7-7061-810E-0F8E332FF77B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 </Entity>

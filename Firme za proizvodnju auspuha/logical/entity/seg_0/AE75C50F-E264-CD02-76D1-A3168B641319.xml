@@ -4,7 +4,7 @@
 <createdTime>2022-01-04 23:29:12 UTC</createdTime>
 <ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
 <engineerTo>
-<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
+<item key="FF871BF2-0109-12D2-8C9C-2ABEB7D54D2F" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,20 +15,4 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IdU" id="E778CC50-065E-B31F-2E0A-EC3FB4C747CF">
-<createdBy>Darko</createdBy>
-<createdTime>2022-01-05 00:51:15 UTC</createdTime>
-<generatorID>E9E8745B-CA32-7B45-B205-8C95F0F351F6</generatorID>
-<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
-<engineerTo>
-<item key="A450B828-473D-A39B-5E6E-A61C895E053E" value="true"/>
-</engineerTo>
-<referedAttribute>DA5BE726-5D82-27A5-E251-A51A093FB59B</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-</attributes>
 </Entity>

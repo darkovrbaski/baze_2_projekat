@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F43C56D-5F77-A9F6-026B-58838A13AE38" name="Radi_na">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-13 22:15:58 UTC</createdTime>
+<generatorID>152A8B19-C407-66A1-135E-E6B1982E46EE</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdRO" id="83D47802-9675-AB13-3B60-A1B139523B76">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-13 22:15:58 UTC</createdTime>
+<generatorID>4456B4C9-3926-9A97-7191-82A3C6E82221</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="615AEAF4-738D-2321-00AD-22550109DDE8" referredColumn="D843630E-6CAE-D2EE-89F5-D7A36AA21775"/>
+<colAssociation fkAssociation="377630E5-80F7-3854-FD8D-717768D2FFF3" referredColumn="606A3E32-F0B0-AB64-249F-A5016E15CA70"/>
+</associations>
+</Column>
+<Column name="IdF" id="986E0092-67D8-C4C9-CB19-70CDE250A5D3">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-13 22:15:58 UTC</createdTime>
+<generatorID>13613C67-F3AE-458E-1AD8-36720A6FFFBF</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="615AEAF4-738D-2321-00AD-22550109DDE8" referredColumn="0CAA557B-321A-5686-178C-682055DE4A6A"/>
+<colAssociation fkAssociation="377630E5-80F7-3854-FD8D-717768D2FFF3" referredColumn="EC26817D-DFD6-C42F-59D0-5CE72ABCD684"/>
+</associations>
+</Column>
+<Column name="IdU" id="A8893A35-0154-B475-78C5-A9D8C127ADAC">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-13 22:15:58 UTC</createdTime>
+<generatorID>77CD0639-9A59-7AD9-F251-38A43EB14439</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="615AEAF4-738D-2321-00AD-22550109DDE8" referredColumn="4306435B-B408-764A-1A65-B6AFF3F9C1F5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5C0C4785-242B-FB2C-02BC-0A421114972A" name="Radi_na_PK">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-13 22:15:58 UTC</createdTime>
+<generatorID>99C5B100-AB01-E32F-C121-349089244A5F</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83D47802-9675-AB13-3B60-A1B139523B76"/>
+<colUsage columnID="986E0092-67D8-C4C9-CB19-70CDE250A5D3"/>
+<colUsage columnID="A8893A35-0154-B475-78C5-A9D8C127ADAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A80B58A0-99E1-79BC-99A5-4FC0B41CE580" name="Radi_na_Operater_FK">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-13 22:15:58 UTC</createdTime>
+<generatorID>1847C313-4B31-A761-E94A-8D2B22EDF759</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83D47802-9675-AB13-3B60-A1B139523B76"/>
+<colUsage columnID="986E0092-67D8-C4C9-CB19-70CDE250A5D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E73BC3DF-CE11-61D3-F2AD-D5E60A02237E" name="Radi_na_Je_obucen_FK">
+<createdBy>Darko</createdBy>
+<createdTime>2022-01-13 22:15:58 UTC</createdTime>
+<generatorID>891963CE-2764-EA65-AC36-BC84622A0E45</generatorID>
+<ownerDesignName>Firme za proizvodnju auspuha</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83D47802-9675-AB13-3B60-A1B139523B76"/>
+<colUsage columnID="986E0092-67D8-C4C9-CB19-70CDE250A5D3"/>
+<colUsage columnID="A8893A35-0154-B475-78C5-A9D8C127ADAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
