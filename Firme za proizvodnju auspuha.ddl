@@ -110,7 +110,7 @@ CREATE TABLE radnik (
     przr    VARCHAR2(30),
     tipr    VARCHAR2(30) NOT NULL,
     brtelr  VARCHAR2(30),
-    pltr    NUMBER(2, 10),
+    pltr    NUMBER(10, 2),
     idf     INTEGER NOT NULL,
     ids     INTEGER NOT NULL
 );
