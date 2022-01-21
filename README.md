@@ -1,13 +1,17 @@
 # baze-2-projekat
 
 <details>
-<summary> Useful Reference </summary>
-  <br><pre>
-  - software for drawing diagrams:
+  <summary> Korisne reference </summary> <br>
+  
+  - Software for drawing diagrams: <br>
 	Diagrams - https://app.diagrams.net/
+  
+  <br>
 
-  - sites for generating data:
-	Mockaroo - https://www.mockaroo.com/
+  - Sites for generating data: <br>
+	Mockaroo - https://www.mockaroo.com/ <br>
 	Convert CSV to SQL - https://www.convertcsv.com/csv-to-sql.htm
-  </pre><br>
+  
+  <br>
+  
 </details>
